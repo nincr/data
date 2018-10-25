@@ -1,0 +1,8 @@
+[preload  storage="./data/bgimage/black.png"  ]
+[preload  storage="./data/bgimage/nakaniwa.jpg"  ]
+[preload  storage="./data/bgimage/ima.jpg"  ]
+[preload  storage="./data/fgimage/chara/1/ueda_1.png"  ]
+[preload  storage="./data/bgimage/kyousitu.jpg"  ]
+[preload  storage="./data/bgimage/tosyositu.jpg"  ]
+[preload  storage="./data/fgimage/chara/3/minami_1.png"  ]
+[return]
