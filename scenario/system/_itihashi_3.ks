@@ -1,0 +1,5 @@
+[preload  storage="./data/bgimage/hospital_out01_day.jpg"  ]
+[preload  storage="./data/bgimage/hospital06_day.jpg"  ]
+[preload  storage="./data/bgimage/black.png"  ]
+[preload  storage="./data/bgimage/hospital03_day.jpg"  ]
+[return]

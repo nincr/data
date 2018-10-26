@@ -100,12 +100,18 @@
 「見つけたわ！　早瀬君、授業をサボるなんてどうしたの？」[p]
 [_tb_end_text]
 
+[tb_hide_message_window  ]
+[bg  time="1000"  method="crossfade"  storage="ueda2.jpg"  ]
+[wait  time="3000"  ]
+[tb_show_message_window  ]
+[cm  ]
 [tb_start_text mode=2 ]
 #
 目をつむって眠りかけていた俺は驚いて目を開けるものの[l][r]
 気力なくまた目を閉じる[l][r]
 [_tb_end_text]
 
+[tb_show_message_window  ]
 [cm  ]
 [tb_start_text mode=2 ]
 #早瀬　颯太
@@ -113,6 +119,7 @@
 [_tb_end_text]
 
 [cm  ]
+[bg  time="1000"  method="crossfade"  storage="nakaniwa.jpg"  ]
 [chara_mod  name="植田菜々美"  time="600"  cross="true"  storage="chara/1/ueda_1.png"  ]
 [chara_show  name="植田菜々美"  time="1000"  wait="true"  left="191"  top="-17"  width="846"  height="1209"  reflect="false"  ]
 [tb_start_text mode=2 ]

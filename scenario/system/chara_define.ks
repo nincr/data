@@ -8,4 +8,6 @@
 
 ;=========変数宣言部分 
 [iscript] 
+f['itihashi_nanami_badflag']=0; 
+f['itihashi_goodflag']=0; 
 [endscript] 

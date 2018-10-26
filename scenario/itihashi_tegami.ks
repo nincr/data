@@ -318,7 +318,19 @@
 [tb_start_text mode=2 ]
 #
 （菜々美の事も力になってやりたいけど今気づいてしまった。[l][r]
-俺か今好きなのは……）[l][r]
+俺が今好きなのは……）[l][r]
 [_tb_end_text]
 
+[glink  color="orange"  storage="itihashi_tegami.ks"  size="28"  text="菜々美"  x="825"  y="314"  width="109"  height="20"  _clickable_img=""  target="*nanami_badflag1"  ]
+[glink  color="blue"  storage="itihashi_tegami.ks"  size="28"  text="市橋"  x="826"  y="378"  width="108"  height="24"  _clickable_img=""  ]
+[s  ]
+*nanami_badflag1
+
+[tb_eval  exp="f.itihashi_nanami_badflag+=1"  name="itihashi_nanami_badflag"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
+[jump  storage="itihashi_3.ks"  target=""  ]
+[s  ]
+*itihashi_goodflag1
+
+[tb_eval  exp="f.itihashi_goodflag+=1"  name="itihashi_goodflag"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
+[jump  storage="itihashi_3.ks"  target=""  ]
 [s  ]
