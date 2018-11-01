@@ -196,3 +196,97 @@
 [glink  color="black"  storage="itihashi_3.ks"  size="28"  text="このまま話す"  x="446"  y="382"  width="245"  height="16"  _clickable_img=""  ]
 [glink  color="black"  storage="itihashi_3.ks"  size="28"  text="入る"  x="445"  y="317"  width="245"  height="16"  _clickable_img=""  ]
 [s  ]
+*clean_hairu
+
+[playse  volume="100"  time="1000"  buf="0"  storage="audio_7950.ogg"  ]
+[bg  time="1000"  method="crossfade"  storage="white.png"  ]
+[tb_start_text mode=2 ]
+#
+病室に入った途端絶句してしまった。[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#早瀬　颯太
+「菜々美！」[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#植田　菜々美
+「だから入らないでっていったのに」[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#
+悲しそうに笑った。[l][r]
+その悲しい笑みが俺に突き刺さる。[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#植田　菜々美
+「私、鏡を見るのも嫌なの。[l][r]
+髪はどんどん落ちてぱさぱさだし、[l][r]
+やつれてひどい顔している」[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#
+俺は思わず謝っていた。[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#早瀬　颯太
+「菜々美、ごめん！本当にごめん」[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#
+（どうしてこんなになるまで……）[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+菜々美の心細さと不安を考えると[l][r]
+胸が痛くて言葉が出なかった。[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+すると菜々美はいつもの笑みを浮かべた。[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#植田　菜々美
+「いいよ」[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#植田　菜々美
+「来てくれてありがとう。[l][r]
+でもやっぱりこんな姿見られたくない」[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#
+涙をこらえるように菜々美は言う。[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#早瀬颯太
+「分った。また来る」[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_hide_message_window  ]
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[s  ]
