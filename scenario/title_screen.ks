@@ -5,6 +5,7 @@
 [tb_keyconfig  flag="0"  ]
 [tb_hide_message_window  ]
 [playse  volume="30"  time="1000"  buf="0"  storage="soundlogo44.ogg"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
 [tb_ptext_show  x="424"  y="291"  size="100"  color="0xffffff"  time="1000"  text="チーム名"  face="FLOPDesignFont"  edge="0x12b87e"  shadow="undefined"  anim="true"  fadeout="false"  wait="true"  in_effect="flipInX"  out_effect="fadeOut"  ]
 [wait  time="1000"  ]
 [tb_ptext_hide  time="1000"  ]

@@ -3,4 +3,7 @@
 [preload  storage="./data/bgimage/black.png"  ]
 [preload  storage="./data/bgimage/hospital03_day.jpg"  ]
 [preload  storage="./data/bgimage/white.png"  ]
+[preload  storage="./data/bgimage/late_park.jpg"  ]
+[preload  storage="./data/bgimage/inakaminka.png"  ]
+[preload  storage="./data/bgimage/sora.jpg"  ]
 [return]

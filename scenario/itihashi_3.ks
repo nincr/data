@@ -40,7 +40,7 @@
 [_tb_end_text]
 
 [cm  ]
-[chara_show  name="市橋結子"  time="1000"  wait="true"  left="80"  top="-29"  width="1260"  height="1800"  reflect="false"  storage="chara/2/ichihashi_1.png"  ]
+[chara_show  name="市橋結子"  time="1000"  wait="true"  left="244"  top="-34"  width="795"  height="1136"  reflect="false"  storage="chara/2/ichihashi_1.png"  ]
 [tb_start_text mode=2 ]
 #市橋　結子
 「早瀬君？何をぼうっと」[l][r]
@@ -193,8 +193,8 @@
 （もどかしいな）[l][r]
 [_tb_end_text]
 
-[glink  color="black"  storage="itihashi_3.ks"  size="28"  text="このまま話す"  x="446"  y="382"  width="245"  height="16"  _clickable_img=""  ]
-[glink  color="black"  storage="itihashi_3.ks"  size="28"  text="入る"  x="445"  y="317"  width="245"  height="16"  _clickable_img=""  ]
+[glink  color="black"  storage="itihashi_3.ks"  size="28"  text="このまま話す"  x="446"  y="382"  width="245"  height="16"  _clickable_img=""  target="*konomamaclean"  ]
+[glink  color="black"  storage="itihashi_3.ks"  size="28"  text="入る"  x="445"  y="317"  width="245"  height="16"  _clickable_img=""  target="*clean_hairu"  ]
 [s  ]
 *clean_hairu
 
@@ -287,6 +287,320 @@
 [_tb_end_text]
 
 [cm  ]
+[jump  storage="itihashi_3.ks"  target="*cleanAfter"  ]
+[s  ]
+*konomamaclean
+
+[tb_start_text mode=1 ]
+#早瀬　颯太
+「そっか。何かできることがあったらいってくれ」[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#植田　菜々美
+「ここに来てくれただけで十分だよ」[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#
+（……本当は心細いんだろう）[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#
+菜々美の声は弱弱しくて……多分強がっている。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#
+でも踏み込んだら引き返せないような気がした。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#早瀬　颯太
+「菜々美、元気になれよ！」[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#植田　菜々美
+「うん、ありがとう。またね」[p]
+[_tb_end_text]
+
+[cm  ]
+*cleanAfter
+
+[tb_start_text mode=2 ]
+#
+そして俺はクリーンルームを後にした。[l][r]
+[_tb_end_text]
+
+[cm  ]
+[bg  time="1000"  method="crossfade"  storage="hospital06_day.jpg"  ]
+[tb_start_text mode=2 ]
+#
+病院受付ロビーに戻ってくると[l][r]
+市橋がうつむいて座っていた。[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#早瀬　颯太
+「……市橋」[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#市橋　結子
+「早瀬君、植田さんどうだった？」[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#早瀬　颯太
+「ちょっと、いいにくいな」[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#市橋　結子
+「そう……やっぱり植田さん病状、悪いんだ……[l][r]
+私、ここにくるまで自分のことしか見えてなかった」[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#
+そうして市橋は表情をひきしめて俺を見つめる。[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#市橋　結子
+「もう自殺しようなんて思わないし、勉強もひとりでする[l][r]
+植田さんの事、いたわってあげて」[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#
+驚いて俺は一瞬言葉に詰まる。[l][r]
+そして笑みがこぼれそして言葉が出た。[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#早瀬　颯太
+「お前って、優しいんだな」[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#
+（ぎゅっと心が締め付けられるようだ）[l][r]
+[_tb_end_text]
+
+[cm  ]
+[bg  time="1000"  method="crossfade"  storage="black.png"  ]
+[tb_start_text mode=2 ]
+そして俺は明日から毎日[l][r]
+[_tb_end_text]
+
+[glink  color="orange"  storage="itihashi_3.ks"  size="30"  text="菜々美の見舞いをする"  x="412"  y="237"  width="317"  height="37"  _clickable_img=""  ]
+[glink  color="blue"  storage="itihashi_3.ks"  size="30"  text="変わらず市橋と勉強する"  x="412"  y="318"  width="318"  height="36"  _clickable_img=""  ]
+[s  ]
+*iti_nanamiend
+
+[bg  time="1000"  method="crossfade"  storage="late_park.jpg"  ]
+[tb_start_text mode=2 ]
+#
+病室でみた菜々美の弱弱しい様子と[l][r]
+……好きだという気持ちがいまさらあふれる[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#早瀬　颯太
+「ありがとう、そしてごめんな」[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#市橋　結子
+「植田さんがこんな事になって、[l][r]
+私も簡単に命を絶とうとしたこと後悔している」[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#
+市橋はどこか諦めたような、[l][r]
+それでいて優しい微笑みを浮かべていた。[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#市橋　結子
+「勉強も早瀬君の教え方で自分の欠点も分かったし、[l][r]
+もう十分、ありがとう」[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#早瀬　颯太
+「何かあったらまた何でも聞いてくれ」[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#市橋　結子
+「未練が残るようなこと言わないで[l][r]
+……さよなら　早瀬君」[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#早瀬　颯太
+「ああ、さよなら、市橋」[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#
+最後は二人お互いに笑って別れた。[l][r]
+[_tb_end_text]
+
+[cm  ]
+[bg  time="1000"  method="crossfade"  storage="black.png"  ]
+[tb_start_text mode=2 ]
+#
+(終わった……市橋との時間が。[l][r]
+きっともう、俺たちの関係が元に戻ることは無い）[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+喪失感もあるけれど今は菜々美の傍に。[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+そしてその後菜々美は治療がうまくいき、退院することが出来た。[l][r]
+[_tb_end_text]
+
+[cm  ]
+[bg  time="1000"  method="crossfade"  storage="inakaminka.png"  ]
+[tb_start_text mode=2 ]
+#
+ー１０ヶ月後　母の青森の実家で菜々美からの荷物が届いた。[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+
+[_tb_end_text]
+
+[cm  ]
 [tb_hide_message_window  ]
+[bg  time="1000"  method="crossfade"  storage="sora.jpg"  ]
+[tb_ptext_show  x="233"  y="50"  size="30"  color="0x030303"  time="1000"  text="Dear早瀬　颯太様"  face="APJapanesefont"  anim="false"  edge="undefined"  shadow="undefined"  ]
+[clickable  storage="itihashi_3.ks"  x="49"  y="38"  width="1289"  height="724"  target="*message_1"  _clickable_img=""  ]
+[s  ]
+*message_1
+
+[tb_ptext_show  x="329"  y="146"  size="30"  color="0x000000"  time="1000"  text="お元気ですか？"  face="APJapanesefont"  anim="false"  edge="undefined"  shadow="undefined"  ]
+[clickable  storage="itihashi_3.ks"  x="49"  y="38"  width="1289"  height="724"  target="*message_2"  _clickable_img=""  ]
+[s  ]
+*message_2
+
+[tb_ptext_show  x="329"  y="186"  size="30"  color="0x000000"  time="1000"  text="毎日のようにメールもしているけど、改めてまた手紙というのは"  face="APJapanesefont"  anim="false"  edge="undefined"  shadow="undefined"  ]
+[clickable  storage="itihashi_3.ks"  x="49"  y="38"  width="1289"  height="724"  target="*message_3"  _clickable_img=""  ]
+[s  ]
+*message_3
+
+[tb_ptext_show  x="329"  y="226"  size="30"  color="0x000000"  time="1000"  text="何から書いていいか迷うね。"  face="APJapanesefont"  anim="false"  edge="undefined"  shadow="undefined"  ]
+[clickable  storage="itihashi_3.ks"  x="49"  y="38"  width="1289"  height="724"  target="*message_4"  _clickable_img=""  ]
+[s  ]
+*message_4
+
+[tb_ptext_show  x="329"  y="286"  size="30"  color="0x000000"  time="1000"  text="中学卒業しても中高一貫だからあまり実感ないかな。"  face="APJapanesefont"  anim="false"  edge="undefined"  shadow="undefined"  ]
+[clickable  storage="itihashi_3.ks"  x="49"  y="38"  width="1289"  height="724"  target="*message_5"  _clickable_img=""  ]
+[s  ]
+*message_5
+
+[tb_ptext_show  x="329"  y="326"  size="30"  color="0x000000"  time="1000"  text="早瀬君はいいっていったけど、"  face="APJapanesefont"  anim="false"  edge="undefined"  shadow="undefined"  ]
+[clickable  storage="itihashi_3.ks"  x="49"  y="38"  width="1289"  height="724"  target="*message_6"  _clickable_img=""  ]
+[s  ]
+*message_6
+
+[tb_ptext_show  x="329"  y="386"  size="30"  color="0x000000"  time="1000"  text="先生に一生懸命頼んで卒業アルバム、早瀬君の文を頂きました。"  face="APJapanesefont"  anim="false"  edge="undefined"  shadow="undefined"  ]
+[clickable  storage="itihashi_3.ks"  x="49"  y="38"  width="1289"  height="724"  target="*message_7"  _clickable_img=""  ]
+[s  ]
+*message_7
+
+[tb_ptext_show  x="329"  y="426"  size="30"  color="0x000000"  time="1000"  text="早瀬君も映ってる写真も結構あるんだよ。"  face="APJapanesefont"  anim="false"  edge="undefined"  shadow="undefined"  ]
+[clickable  storage="itihashi_3.ks"  x="49"  y="38"  width="1289"  height="724"  target="*message_8"  _clickable_img=""  ]
+[s  ]
+*message_8
+
+[tb_ptext_show  x="329"  y="466"  size="30"  color="0x000000"  time="1000"  text="ゆっくりみてね。"  face="APJapanesefont"  anim="false"  edge="undefined"  shadow="undefined"  ]
+[clickable  storage="itihashi_3.ks"  x="49"  y="38"  width="1289"  height="724"  target="*message_9"  _clickable_img=""  ]
+[s  ]
+*message_9
+
+[tb_ptext_show  x="329"  y="566"  size="30"  color="0x000000"  time="1000"  text="from　植田　菜々美"  face="APJapanesefont"  anim="false"  edge="undefined"  shadow="undefined"  ]
+[clickable  storage="itihashi_3.ks"  x="49"  y="38"  width="1289"  height="724"  target="*message_11"  _clickable_img=""  ]
+[s  ]
+*message_11
+
+[tb_ptext_hide  time="1000"  ]
+[bg  time="1000"  method="crossfade"  storage="inakaminka.png"  ]
+[tb_start_text mode=2 ]
+#
+俺はパラパラとアルバムを見始める。[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#
+（一年と経っていないのに随分昔に思えるな）[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#
+ふと、市橋の写真が目に入る。[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#
+市橋も成績が安定したという話を菜々美からのメールで知った。[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#
+市橋の写真を追うと一人でポツンとした無愛想にしている写真が多い。[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+#
+「あいつ元気かな」[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+パタンとアルバムを閉じて目を瞑る。[l][r]
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
+「……もう何もできないけど、幸せにな」[l][r]
+[_tb_end_text]
+
+[cm  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[bg  time="1000"  method="crossfade"  storage="black.png"  ]
+[jump  storage="title_screen.ks"  target=""  ]
 [s  ]
